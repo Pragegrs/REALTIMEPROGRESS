@@ -1,0 +1,35 @@
+/* Reset some default styles and set a background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header with a blue background and white text */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the title */
+h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+/* Create a container to center the content and set a max width */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the embedded iframe */
+iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 450px;
+}
