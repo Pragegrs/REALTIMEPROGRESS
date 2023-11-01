@@ -4,8 +4,9 @@ body, h1, h2, p {
     padding: 0;
 }
 
-/* Center all content except for the script */
+/* Set a solid white background */
 body {
+    background-color: white; /* Set the background to white */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +15,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
 }
 
 /* Style for the button container */
@@ -81,4 +81,11 @@ iframe {
     max-width: 800px; /* Adjust the maximum width as needed */
     border: none;
     margin: 20px 0;
+}
+
+/* Style for the first script (Tidio) */
+#tidio-chat {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
