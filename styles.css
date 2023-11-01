@@ -4,9 +4,9 @@ body, h1, h2, p {
     padding: 0;
 }
 
-/* Set a solid white background */
+/* Set the background color to white */
 body {
-    background-color: white; /* Set the background to white */
+    background-color: #FFFFFF; /* Set the background to white (#FFFFFF) */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +41,11 @@ body {
     background-color: #0056b3;
 }
 
+/* Center the "Real-Time Progress" text */
+h2 {
+    text-align: center;
+}
+
 /* Style for the central image */
 .central-image {
     /* Center the image horizontally */
@@ -57,10 +62,11 @@ body {
     font-size: 3em;
 }
 
-/* Style for the container of icons */
+/* Center the container of icons */
 .icon-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* Style for individual icon elements */
@@ -75,12 +81,14 @@ body {
     color: #0077b5;
 }
 
-/* Style for the Figma script */
+/* Center the Figma script */
 iframe {
     width: 100%;
     max-width: 800px; /* Adjust the maximum width as needed */
     border: none;
     margin: 20px 0;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Style for the first script (Tidio) */
