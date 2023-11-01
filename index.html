@@ -25,6 +25,7 @@
             padding: 20px 40px; /* Adjust padding to make it bigger */
             border-radius: 10px; /* Add rounded corners */
             text-decoration: none; /* Remove underlines */
+            margin-top: 40px; /* Add more spacing between the button and icons */
         }
 
         /* Style for the central image */
@@ -41,37 +42,25 @@
             font-size: 3em;
         }
 
-        /* Style for the icon container */
+        /* Style for the container of icons and button */
         .icon-container {
             display: flex;
             align-items: center;
         }
 
-        /* Style for the video logo container */
-        .video-logo-container {
-            width: 300px; /* Adjust the width of the container */
-            height: 300px; /* Make it a square */
-            border-radius: 50%; /* Make it a circle */
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        /* Style for individual icon elements */
+        .icon-container a {
+            margin-right: 20px; /* Add spacing between icons */
         }
 
-        /* Style for the video logo */
-        .video-logo {
-            width: 100%; /* Make the video fill the container */
-            height: auto;
+        /* Style for the Figma script */
+        iframe {
+            width: 100%;
+            max-width: 800px; /* Adjust the maximum width as needed */
         }
     </style>
 </head>
 <body>
-    <div class="video-logo-container">
-        <video class="video-logo" autoplay loop muted>
-            <source src="your-logo.mp4" type="video/mp4">
-        </video>
-    </div>
-
     <main>
         <img src="your-image.jpg" alt="Your Central Image" class="central-image">
         
